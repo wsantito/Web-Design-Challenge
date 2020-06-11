@@ -553,8 +553,8 @@ pre code {
 
 .container2 {
   width: 100%;
-  padding-right: 80px;
-  padding-left: 50px;
+  margin-bottom: 10px;
+  padding-right: 20vw;
   margin-right: auto;
   margin-left: auto;
 }
@@ -4781,6 +4781,23 @@ input[type="button"].btn-block {
   border-radius: 0.25rem;
 }
 
+.data {
+  position: absolute;
+  top: 35vh;
+  right: 16vw;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -7940,6 +7957,7 @@ button.bg-dark:focus {
 }
 
 .float-right {
+  margin-right: 5vw;
   float: right !important;
 }
 
